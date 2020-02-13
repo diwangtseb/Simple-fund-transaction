@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>股票交易应用</h1>
+    <p class="lead">关于</p>
+    <p>@Html.ActionLink("关于我","Contact","Home",new {@class= "btn btn-primary btn-l " })
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>我的资产</h2>
+        <p>
+            查看拥有的持有股票以及数量
+        </p>
+        <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>买入</h2>
+        <p>在已/未持有的情况下进行交易</p>
+    </div>
+    <div class="col-md-4">
+        <h2>卖出</h2>
+        <p>在已/未持有的情况下进行交易</p>
+    </div>
+</div>
